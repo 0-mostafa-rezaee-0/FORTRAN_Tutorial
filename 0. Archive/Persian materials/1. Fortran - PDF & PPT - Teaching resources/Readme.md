@@ -22,11 +22,11 @@ Note: The extension of the old programs written with Fortran was For, but the ex
 # Data input
 1. Data entry by the user
 ```
-- Read(*,*) x
+Read(*,*) x
 ```
 2. Data entry by the programmer
 ```
-- Pi=3.14
+Pi=3.14
 ```
 - Complex numbers are written as ordered pairs:
 Z = a + bi
@@ -35,8 +35,33 @@ Z = a + bi
 Ii=(0.,1.)
 ```
 
+# Program output
+The Write command is used to print information on the screen. "," should be placed between the variables that are to be printed
+```
+Write(*,*) a,b
+```
 
+Note: In order for a phrase to be printed exactly, it must be enclosed in quotation marks.
+```
+Write(*,*)  ‘Result=‘ ,a 
+```
 
+If the goal is to print the output in a specific order, we should write a special type of operator instead of the * sign.
+
+Important operators are also:
+X: Blank space
+Fw.d: Decimal number output with field length W and decimal value d
+L: logical variable output
+Ew.d: power number output with field length W and decimal value d
+Aw: string output with field length w
+Im: Integer output with field length m
+' ' : Whatever is placed inside the quotation marks will be printed exactly.
+/ : Moves the editor to the next line.
+  \: means to keep the cursor on the same line.
+
+```
+Write(*, '( operators )' ) outputs
+```
 
 
 
