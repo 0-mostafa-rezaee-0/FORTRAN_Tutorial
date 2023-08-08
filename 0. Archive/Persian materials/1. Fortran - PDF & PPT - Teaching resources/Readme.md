@@ -99,17 +99,31 @@ If (a logical expression) executive command
 
 The logical expression can be an equality condition or not. In the Fortran language, the following symbols are used to apply conditions:
 ```
-.GE. or >= greater than or equal to
-.GT. or > greater
-.LE. or <= less than or equal to
-.LT. or < smaller
-.N.E. or \= inequality
-.EQ. or == equal
+.GE.  or  >=  greater than or equal to
+.GT.  or  >   greater
+.LE.  or  <=  less than or equal to
+.LT.  or  <   smaller
+.N.E. or  \=  inequality
+.EQ.  or  ==  equal
 ```
 
+Several conditions can be combined with each other with the help of the following factors:
+```
+.AND. The equivalent of "and" means that two conditions are met
+.Or.  The equivalent of "or" means that at least one of the conditions is met
+.Not. It means establishing a condition
+```
 
+# Arrays
+Arrays are multidimensional variables. In fact, arrays are like one-row or multi-row matrices that can be assigned data according to the index of the corresponding row and column.
 
-
+The following method is used to determine the dimensions of the arrays in the variable definition section:
+```
+1D: Real A[allocatable] (:) 
+2D: B[allocatable]( ; , ;)
+3D: c [allocatable]( ; , ; , :)
+4D: D [allocatable]( ; , ; , : ,:)
+```
 
 
 
