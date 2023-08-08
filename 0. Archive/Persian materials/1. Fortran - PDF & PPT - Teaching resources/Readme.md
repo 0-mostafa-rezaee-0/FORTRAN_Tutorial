@@ -91,8 +91,21 @@ Do while   (r<5)
 End  do ! i
 ```
 
+# Conditional commands
+With the help of conditional commands, it is possible to execute a part of the program depending on the condition being established. The structure of this command is as follows:
+```
+If (a logical expression) executive command
+```
 
-
+The logical expression can be an equality condition or not. In the Fortran language, the following symbols are used to apply conditions:
+```
+.GE. or >= greater than or equal to
+.GT. or > greater
+.LE. or <= less than or equal to
+.LT. or < smaller
+.N.E. or \= inequality
+.EQ. or == equal
+```
 
 
 
