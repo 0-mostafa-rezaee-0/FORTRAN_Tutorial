@@ -121,79 +121,9 @@ The following method is used to determine the dimensions of the arrays in the va
 ```
 1D: Real A[allocatable] (:) 
 2D: B[allocatable]( ; , ;)
-3D: c [allocatable]( ; , ; , :)
-4D: D [allocatable]( ; , ; , : ,:)
+3D: C[allocatable]( ; , ; , :)
+4D: D[allocatable]( ; , ; , : ,:)
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
