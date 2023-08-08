@@ -63,6 +63,97 @@ Im: Integer output with field length m
 Write(*, '( operators )' ) outputs
 ```
 
+`do` command:
+The `do` loop is written as follows
+do and exit loop:
+do & while loop:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
