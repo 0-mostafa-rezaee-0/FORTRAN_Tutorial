@@ -22,3 +22,11 @@ It is appropriate for the coders to introduce themselves at the beginning of eac
 !******************************************************************************************
 ```
 
+### 2. Definition of variables:
+On the surface, coding with Matlab, where there is no need to define variables, seems easier. But defining variables in low-level languages and using the implicit none command - which disables Fortran's defaults - is one of the program's main benefits. The optimal definition of the number of directories of an array in order to prevent insufficient virtual memory forms and also to increase the speed of program execution is one of these advantages.
+
+```
+!******************************************************************************************
+! Variables Definition
+!******************************************************************************************
+```
