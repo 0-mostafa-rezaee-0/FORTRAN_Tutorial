@@ -30,3 +30,36 @@ On the surface, coding with Matlab, where there is no need to define variables, 
 ! Variables Definition
 !******************************************************************************************
 ```
+
+### 3. Assigning an initial value of zero to the variables:
+Uninitialized variables can cause a serious problem. Therefore, all variables must be initialized before use, because otherwise, the compiler will report the remaining data from the previous program that occupied the same part of the memory.
+
+```
+!******************************************************************************************
+! Giving Zero to variables
+!******************************************************************************************
+```
+
+### 4. Getting input parameters from the user:
+Variables that are supposed to have different values in successive executions of the program and the purpose of the program is to check the change of those parameters, it is better to be set by the user.
+
+```
+!******************************************************************************************
+! Inputs
+!******************************************************************************************
+```
+
+One technique is to receive each variable in both numerical and character form, so that from its numerical format for calculations, and from the character format of `E` and `freq`, it is a real number, but the `EE` and `freqf` variables are the same values, but in character form, by the compiler.
+
+```
+Real E , freq
+Character*30 EE, freqf, filename1
+write(*,'(/,2x,a,\)') ' Enter the Energy value : '
+read(*,*)E
+write(*,'(/,2x,a,\)') ' Again : '
+read(*,*)EE
+write(*,'(/,2x,a,\)') ' Enter the frequency value : '
+read(*,*)freq
+write(*,'(/,2x,a,\)') ' Again : '
+read(*,*)freqf
+```
