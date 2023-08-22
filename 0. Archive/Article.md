@@ -63,3 +63,19 @@ read(*,*)freq
 write(*,'(/,2x,a,\)') ' Again : '
 read(*,*)freqf
 ```
+
+### 5. Assigning file names using input information or problem specifications:
+This section has a narrow point that if we use it correctly, firstly, the speed of working with the output files increases, secondly, the output information is well categorized. For this, it is necessary to create the file name from the input information.
+
+```
+!******************************************************************************************
+! Determination of Filenames and Opening files
+!******************************************************************************************
+```
+
+In addition, if our outputs are in the form of graphs, it is better to save the file with the extension `plt` _ related to `tecplot` software _. In addition to many features, this software has the advantage that a graph can be drawn just by clicking on the file icon. The `//` operator joins two character expressions together and the `trim()` command removes the unoccupied characters of a character field. (Example: temperature graph in terms of time for specific pulse energy and frequency)
+
+```
+filenameTt = 'E'//trim(EE)//' f'//trim(freqf)//' Tt.plt'
+open(1,file=filenameTt)
+```
