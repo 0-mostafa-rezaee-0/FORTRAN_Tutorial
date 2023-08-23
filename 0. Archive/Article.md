@@ -79,3 +79,13 @@ In addition, if our outputs are in the form of graphs, it is better to save the 
 filenameTt = 'E'//trim(EE)//' f'//trim(freqf)//' Tt.plt'
 open(1,file=filenameTt)
 ```
+
+### 6. Entering constant values into the program:
+It is better to concentrate all the values of the program in this part. They should also be arranged in a meaningful and readable order so that they can be controlled easily.
+
+```
+!******************************************************************************************
+! Constants
+!******************************************************************************************
+```
+
