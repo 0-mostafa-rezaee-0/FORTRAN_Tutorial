@@ -89,3 +89,11 @@ It is better to concentrate all the values of the program in this part. They sho
 !******************************************************************************************
 ```
 
+### 7. Determining the number of bins of each dimension of the array optimally using input values and constant values:
+The smaller the number of directories in an array, the less likely it is to reduce the program execution time and deal with memory errors. Therefore, it is necessary to allocate the arrays optimally. In general, it is better not to use an array to solve a problem unless it is really needed.
+
+```
+!******************************************************************************************
+! Arrays Allocation
+!******************************************************************************************
+```
