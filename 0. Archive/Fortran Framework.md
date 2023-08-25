@@ -97,3 +97,12 @@ The smaller the number of directories in an array, the less likely it is to redu
 ! Arrays Allocation
 !******************************************************************************************
 ```
+
+### 8. Assigning an initial value of zero to all arrays:
+Arrays must be initialized like variables. For this, it is better to assign zero value to all directories by the forall command.
+
+```
+!******************************************************************************************
+! Giving Zero to Arrays
+!******************************************************************************************
+```
