@@ -117,8 +117,11 @@ In this regard, it is better to print the names of the variables and their value
 !******************************************************************************************
 ```
 
+### 10. The main part of the program:
+In this section, boundary conditions and problem solving algorithm are written.
 
-
-
-
-
+```
+!******************************************************************************************
+! Main Block of the Program
+!******************************************************************************************
+```
