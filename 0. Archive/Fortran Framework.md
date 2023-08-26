@@ -106,3 +106,19 @@ Arrays must be initialized like variables. For this, it is better to assign zero
 ! Giving Zero to Arrays
 !******************************************************************************************
 ```
+
+### 9. Print input values and program constant values:
+It is necessary for the user to make sure that all the values he feeds the program with are correct before running the main part of the program.
+In this regard, it is better to print the names of the variables and their value in front of each other so that the user can easily control them.
+
+```
+!******************************************************************************************
+! Printing Constants and Inputs
+!******************************************************************************************
+```
+
+
+
+
+
+
