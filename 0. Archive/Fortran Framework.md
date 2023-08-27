@@ -135,4 +135,11 @@ Although the printing of the results is introduced as a separate section, someti
 !******************************************************************************************
 ```
 
+### 12. Close the opened files and terminate the program:
+At first glance, it seems that keeping the files opened at the beginning of the program does not cause a problem, but experience has shown that to prevent problems caused by the interference of the program in repeated executions, it is better to close the files at the end of the work.
 
+```
+!******************************************************************************************
+! Closing Files and Ending the Program
+!******************************************************************************************
+```
