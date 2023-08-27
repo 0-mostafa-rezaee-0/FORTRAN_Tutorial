@@ -125,3 +125,14 @@ In this section, boundary conditions and problem solving algorithm are written.
 ! Main Block of the Program
 !******************************************************************************************
 ```
+
+### 11. Print the results:
+Although the printing of the results is introduced as a separate section, sometimes it is necessary to save the information directly in the files in the same main section of the program. If the place of receiving the outputs is chosen intelligently in the program, it can prevent the insufficient virtual memory message from appearing in most cases and increase the speed of the program execution sometimes tens of times.
+
+```
+!******************************************************************************************
+! Printing Results
+!******************************************************************************************
+```
+
+
