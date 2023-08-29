@@ -1,14 +1,14 @@
 # Fortran Framework
 
 ## Abstract
-Writing an efficient code to numerically solve a problem has many points and complications. Therefore, years of coding experience are necessary to be able to correct the syntax errors of the program and extract the correct numerical results. Our initiative in this article is to present a format that enables a coder to avoid making many frequent errors and obtain the desired answers more easily and accurately.
+Crafting an efficient code to solve numerical challenges involves various intricacies. Thus, substantial coding experience is essential to rectify syntax errors and achieve accurate results. This article aims to introduce a format that helps coders mitigate common errors, facilitating the acquisition of accurate and straightforward solutions.
 
 ## Introduction
-In the title of this article, coding with Fortran is emphasized. But using this format in other programming languages also opens the way. Because an experienced coder knows that the major part of a code is its algorithm design, and this itself is independent of the language used to write the code. This format is in twelve steps in the form of explanatory lines with a sign! The first line divides the program into separate parts. In this article, we have tried to briefly explain the advantages of each step. It is better to copy these explanatory lines, like boards, in the program and finally write the desired code step by step according to the guide boards. This method has been tested by a number of students who have been at different levels of programming. Finally, the efficiency of this format prompted us to introduce and publish it in order to improve the coding speed and accuracy of other scholars. Those who are interested can get programs written with this format from the author.
+The title of this article highlights coding with Fortran, but it is important to note that this approach is applicable across other programming languages as well. A seasoned coder understands that the crux of any code lies in its algorithm design, which is fundamentally language-agnostic. This approach is organized into twelve steps, each accompanied by explanatory comments marked with an exclamation sign (!). The initial comment demarcates the program into distinct segments. Throughout this article, we succinctly delineate the merits of each step. It is recommended to replicate these explanatory comments, akin to guideboards, within the program and subsequently craft the requisite code step-by-step, adhering to the guidelines provided. This methodology has undergone trials by students at various stages of their programming journey. The proven efficacy of this approach inspired us to share and disseminate it with the aim of augmenting the coding velocity and precision of fellow researchers. Enthusiasts can acquire programs scripted in this format from the author.
 
 ## Introduction of program steps
 ### 1. Registration of program and programmers:
-It is appropriate for the coders to introduce themselves at the beginning of each program and register their contact details. This work sometimes creates valuable scientific connections with other researchers and in a way the authors introduce themselves with this method and show their ability to attract the cooperation of others. It is also necessary to write a description of the program, the date of writing and its review for future reference.
+It is essential for programmers to include a brief introduction about themselves and their contact information at the start of each program. This not only fosters valuable connections with fellow researchers and professionals but also serves as a platform for the authors to showcase their capabilities, thereby encouraging collaborative efforts. Additionally, it is crucial to provide a detailed description of the program, along with the date it was written and reviewed, to facilitate easy reference and comprehension in the future. This practice enhances the program's documentation, making it more accessible and user-friendly for others who may work on it or use it as a reference.
 
 ```
 !******************************************************************************************
@@ -23,7 +23,7 @@ It is appropriate for the coders to introduce themselves at the beginning of eac
 ```
 
 ### 2. Definition of variables:
-On the surface, coding with Matlab, where there is no need to define variables, seems easier. But defining variables in low-level languages and using the implicit none command - which disables Fortran's defaults - is one of the program's main benefits. The optimal definition of the number of directories of an array in order to prevent insufficient virtual memory forms and also to increase the speed of program execution is one of these advantages.
+At a glance, coding in Matlab, which does not require variable definition, appears to be more straightforward. However, the key advantage of low-level languages lies in the ability to define variables and use the 'implicit none' command, effectively overriding Fortran's defaults. This not only allows for optimal definition of an array's dimensions, helping to avoid issues related to insufficient virtual memory, but also contributes to enhancing the overall speed of program execution.
 
 ```
 !******************************************************************************************
@@ -32,7 +32,7 @@ On the surface, coding with Matlab, where there is no need to define variables, 
 ```
 
 ### 3. Assigning an initial value of zero to the variables:
-Uninitialized variables can cause a serious problem. Therefore, all variables must be initialized before use, because otherwise, the compiler will report the remaining data from the previous program that occupied the same part of the memory.
+Using uninitialized variables can lead to severe issues in your program. It is crucial to initialize all variables before utilizing them, as failing to do so may result in the compiler retrieving residual data from a preceding program that occupied the same memory segment. This can lead to unpredictable behavior and hard-to-debug errors in your program.
 
 ```
 !******************************************************************************************
@@ -41,7 +41,7 @@ Uninitialized variables can cause a serious problem. Therefore, all variables mu
 ```
 
 ### 4. Getting input parameters from the user:
-Variables that are supposed to have different values in successive executions of the program and the purpose of the program is to check the change of those parameters, it is better to be set by the user.
+It is important for variables that are expected to change values between consecutive runs of a program, especially when the goal of the program is to assess the variations of these parameters, to be defined by the user. This ensures that the program can be thoroughly tested and evaluated under different scenarios and conditions.
 
 ```
 !******************************************************************************************
@@ -49,8 +49,8 @@ Variables that are supposed to have different values in successive executions of
 !******************************************************************************************
 ```
 
-One technique is to receive each variable in both numerical and character form, so that from its numerical format for calculations, and from the character format of `E` and `freq`, it is a real number, but the `EE` and `freqf` variables are the same values, but in character form, by the compiler.
 
+A useful approach is to input each variable in both numerical and character formats. This allows us to use the numerical format for performing calculations while the character format is used to verify the nature of the variables. For example, `E` and `freq` are processed as real numbers, whereas `EE` and `freqf` represent the same values but in character format. This distinction is recognized and managed by the compiler.
 ```
 Real E , freq
 Character*30 EE, freqf, filename1
