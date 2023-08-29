@@ -41,7 +41,7 @@ Using uninitialized variables can lead to severe issues in your program. It is c
 ```
 
 ### 4. Getting input parameters from the user:
-Variables that are supposed to have different values in successive executions of the program and the purpose of the program is to check the change of those parameters, it is better to be set by the user.
+It is important for variables that are expected to change values between consecutive runs of a program, especially when the goal of the program is to assess the variations of these parameters, to be defined by the user. This ensures that the program can be thoroughly tested and evaluated under different scenarios and conditions.
 
 ```
 !******************************************************************************************
