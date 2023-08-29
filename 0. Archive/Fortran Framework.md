@@ -32,7 +32,7 @@ At a glance, coding in Matlab, which does not require variable definition, appea
 ```
 
 ### 3. Assigning an initial value of zero to the variables:
-Uninitialized variables can cause a serious problem. Therefore, all variables must be initialized before use, because otherwise, the compiler will report the remaining data from the previous program that occupied the same part of the memory.
+Using uninitialized variables can lead to severe issues in your program. It is crucial to initialize all variables before utilizing them, as failing to do so may result in the compiler retrieving residual data from a preceding program that occupied the same memory segment. This can lead to unpredictable behavior and hard-to-debug errors in your program.
 
 ```
 !******************************************************************************************
