@@ -49,8 +49,8 @@ It is important for variables that are expected to change values between consecu
 !******************************************************************************************
 ```
 
-One technique is to receive each variable in both numerical and character form, so that from its numerical format for calculations, and from the character format of `E` and `freq`, it is a real number, but the `EE` and `freqf` variables are the same values, but in character form, by the compiler.
 
+A useful approach is to input each variable in both numerical and character formats. This allows us to use the numerical format for performing calculations while the character format is used to verify the nature of the variables. For example, `E` and `freq` are processed as real numbers, whereas `EE` and `freqf` represent the same values but in character format. This distinction is recognized and managed by the compiler.
 ```
 Real E , freq
 Character*30 EE, freqf, filename1
