@@ -8,7 +8,7 @@ The title of this article highlights coding with Fortran, but it is important to
 
 ## Introduction of program steps
 ### 1. Registration of program and programmers:
-It is appropriate for the coders to introduce themselves at the beginning of each program and register their contact details. This work sometimes creates valuable scientific connections with other researchers and in a way the authors introduce themselves with this method and show their ability to attract the cooperation of others. It is also necessary to write a description of the program, the date of writing and its review for future reference.
+It is essential for programmers to include a brief introduction about themselves and their contact information at the start of each program. This not only fosters valuable connections with fellow researchers and professionals but also serves as a platform for the authors to showcase their capabilities, thereby encouraging collaborative efforts. Additionally, it is crucial to provide a detailed description of the program, along with the date it was written and reviewed, to facilitate easy reference and comprehension in the future. This practice enhances the program's documentation, making it more accessible and user-friendly for others who may work on it or use it as a reference.
 
 ```
 !******************************************************************************************
