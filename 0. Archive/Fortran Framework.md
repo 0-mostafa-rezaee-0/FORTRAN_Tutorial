@@ -23,7 +23,7 @@ It is essential for programmers to include a brief introduction about themselves
 ```
 
 ### 2. Definition of variables:
-On the surface, coding with Matlab, where there is no need to define variables, seems easier. But defining variables in low-level languages and using the implicit none command - which disables Fortran's defaults - is one of the program's main benefits. The optimal definition of the number of directories of an array in order to prevent insufficient virtual memory forms and also to increase the speed of program execution is one of these advantages.
+At a glance, coding in Matlab, which does not require variable definition, appears to be more straightforward. However, the key advantage of low-level languages lies in the ability to define variables and use the 'implicit none' command, effectively overriding Fortran's defaults. This not only allows for optimal definition of an array's dimensions, helping to avoid issues related to insufficient virtual memory, but also contributes to enhancing the overall speed of program execution.
 
 ```
 !******************************************************************************************
