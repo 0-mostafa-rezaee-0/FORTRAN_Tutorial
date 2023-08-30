@@ -107,8 +107,7 @@ It is essential to initialize arrays just as you would with variables. A good pr
 ```
 
 ### 9. Print input values and program constant values:
-It is necessary for the user to make sure that all the values he feeds the program with are correct before running the main part of the program.
-In this regard, it is better to print the names of the variables and their value in front of each other so that the user can easily control them.
+It is crucial for the user to verify the accuracy of all the input values before executing the main segment of the program. To facilitate easy monitoring of these values, it is recommended to display the variable names alongside their corresponding values. This will enable the user to effortlessly check and confirm the accuracy of the input before proceeding with the main operation of the program.
 
 ```
 !******************************************************************************************
@@ -117,8 +116,7 @@ In this regard, it is better to print the names of the variables and their value
 ```
 
 ### 10. The main part of the program:
-In this section, boundary conditions and problem solving algorithm are written.
-
+In this section, we meticulously delineate the boundary conditions and articulate the problem-solving algorithm, ensuring that both are elucidated in a clear and straightforward manner.
 ```
 !******************************************************************************************
 ! Main Block of the Program
@@ -126,7 +124,7 @@ In this section, boundary conditions and problem solving algorithm are written.
 ```
 
 ### 11. Print the results:
-Although the printing of the results is introduced as a separate section, sometimes it is necessary to save the information directly in the files in the same main section of the program. If the place of receiving the outputs is chosen intelligently in the program, it can prevent the insufficient virtual memory message from appearing in most cases and increase the speed of the program execution sometimes tens of times.
+While the results' printing is typically designated to a separate section, there are instances when it is imperative to store the data directly into files within the primary segment of the program. Strategically selecting the location for output retrieval in the program can avert the occurrence of 'insufficient virtual memory' alerts in a majority of scenarios and, occasionally, amplify the program's execution speed by a significant factor, sometimes even by an order of magnitude.
 
 ```
 !******************************************************************************************
@@ -135,7 +133,7 @@ Although the printing of the results is introduced as a separate section, someti
 ```
 
 ### 12. Close the opened files and terminate the program:
-At first glance, it seems that keeping the files opened at the beginning of the program does not cause a problem, but experience has shown that to prevent problems caused by the interference of the program in repeated executions, it is better to close the files at the end of the work.
+Upon initial observation, one might think that leaving files open at the start of a program doesn't lead to any issues. However, past experiences indicate that in order to avoid complications arising from the program's interference during subsequent runs, it is advisable to close the files upon completion of the task.
 
 ```
 !******************************************************************************************
