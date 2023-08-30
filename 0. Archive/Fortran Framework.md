@@ -65,7 +65,7 @@ read(*,*)freqf
 ```
 
 ### 5. Assigning file names using input information or problem specifications:
-This section has a narrow point that if we use it correctly, firstly, the speed of working with the output files increases, secondly, the output information is well categorized. For this, it is necessary to create the file name from the input information.
+This section highlights a crucial aspect: optimizing the use of output files. Proper utilization can, firstly, accelerate the processing speed of these files, and secondly, ensure that the output information is systematically organized. To achieve this, it is essential to construct the file names using the input information. This simple practice can lead to significant improvements in efficiency and organization of the output data.
 
 ```
 !******************************************************************************************
@@ -73,7 +73,7 @@ This section has a narrow point that if we use it correctly, firstly, the speed 
 !******************************************************************************************
 ```
 
-In addition, if our outputs are in the form of graphs, it is better to save the file with the extension `plt` _ related to `tecplot` software _. In addition to many features, this software has the advantage that a graph can be drawn just by clicking on the file icon. The `//` operator joins two character expressions together and the `trim()` command removes the unoccupied characters of a character field. (Example: temperature graph in terms of time for specific pulse energy and frequency)
+Moreover, when our results are graphically represented, it is advisable to save the file with the `plt` extension, which is associated with the `tecplot` software. This software is not only feature-rich but also offers the convenience of generating a graph with a simple click on the file icon. Additionally, the `//` operator is used for concatenating two character expressions, and the `trim()` function is employed to eliminate unused characters from a character field. For instance, this could be applied to a graph depicting temperature variations over time at a given pulse energy and frequency.
 
 ```
 filenameTt = 'E'//trim(EE)//' f'//trim(freqf)//' Tt.plt'
@@ -81,7 +81,7 @@ open(1,file=filenameTt)
 ```
 
 ### 6. Entering constant values into the program:
-It is better to concentrate all the values of the program in this part. They should also be arranged in a meaningful and readable order so that they can be controlled easily.
+It is crucial to centralize all the program's values in this section. Additionally, organizing them in a logical and legible sequence is essential to facilitate straightforward management and control.
 
 ```
 !******************************************************************************************
@@ -90,7 +90,7 @@ It is better to concentrate all the values of the program in this part. They sho
 ```
 
 ### 7. Determining the number of bins of each dimension of the array optimally using input values and constant values:
-The smaller the number of directories in an array, the less likely it is to reduce the program execution time and deal with memory errors. Therefore, it is necessary to allocate the arrays optimally. In general, it is better not to use an array to solve a problem unless it is really needed.
+Minimizing the number of directories in an array does not necessarily lead to a reduction in program execution time or a decrease in memory errors. Hence, it is crucial to optimize array allocation. Generally, it is advisable to avoid using arrays for problem-solving unless absolutely necessary.
 
 ```
 !******************************************************************************************
@@ -99,8 +99,7 @@ The smaller the number of directories in an array, the less likely it is to redu
 ```
 
 ### 8. Assigning an initial value of zero to all arrays:
-Arrays must be initialized like variables. For this, it is better to assign zero value to all directories by the forall command.
-
+It is essential to initialize arrays just as you would with variables. A good practice is to assign a zero value to all elements of the array using the `forall` command, which ensures that each element is explicitly set to zero before any further operations are carried out on the array. This helps in preventing unexpected behaviors caused by uninitialized elements.
 ```
 !******************************************************************************************
 ! Giving Zero to Arrays
@@ -108,8 +107,7 @@ Arrays must be initialized like variables. For this, it is better to assign zero
 ```
 
 ### 9. Print input values and program constant values:
-It is necessary for the user to make sure that all the values he feeds the program with are correct before running the main part of the program.
-In this regard, it is better to print the names of the variables and their value in front of each other so that the user can easily control them.
+It is crucial for the user to verify the accuracy of all the input values before executing the main segment of the program. To facilitate easy monitoring of these values, it is recommended to display the variable names alongside their corresponding values. This will enable the user to effortlessly check and confirm the accuracy of the input before proceeding with the main operation of the program.
 
 ```
 !******************************************************************************************
@@ -118,8 +116,7 @@ In this regard, it is better to print the names of the variables and their value
 ```
 
 ### 10. The main part of the program:
-In this section, boundary conditions and problem solving algorithm are written.
-
+In this section, we meticulously delineate the boundary conditions and articulate the problem-solving algorithm, ensuring that both are elucidated in a clear and straightforward manner.
 ```
 !******************************************************************************************
 ! Main Block of the Program
@@ -127,7 +124,7 @@ In this section, boundary conditions and problem solving algorithm are written.
 ```
 
 ### 11. Print the results:
-Although the printing of the results is introduced as a separate section, sometimes it is necessary to save the information directly in the files in the same main section of the program. If the place of receiving the outputs is chosen intelligently in the program, it can prevent the insufficient virtual memory message from appearing in most cases and increase the speed of the program execution sometimes tens of times.
+While the results' printing is typically designated to a separate section, there are instances when it is imperative to store the data directly into files within the primary segment of the program. Strategically selecting the location for output retrieval in the program can avert the occurrence of 'insufficient virtual memory' alerts in a majority of scenarios and, occasionally, amplify the program's execution speed by a significant factor, sometimes even by an order of magnitude.
 
 ```
 !******************************************************************************************
@@ -136,7 +133,7 @@ Although the printing of the results is introduced as a separate section, someti
 ```
 
 ### 12. Close the opened files and terminate the program:
-At first glance, it seems that keeping the files opened at the beginning of the program does not cause a problem, but experience has shown that to prevent problems caused by the interference of the program in repeated executions, it is better to close the files at the end of the work.
+Upon initial observation, one might think that leaving files open at the start of a program doesn't lead to any issues. However, past experiences indicate that in order to avoid complications arising from the program's interference during subsequent runs, it is advisable to close the files upon completion of the task.
 
 ```
 !******************************************************************************************
