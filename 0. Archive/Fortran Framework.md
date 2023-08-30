@@ -81,7 +81,7 @@ open(1,file=filenameTt)
 ```
 
 ### 6. Entering constant values into the program:
-It is better to concentrate all the values of the program in this part. They should also be arranged in a meaningful and readable order so that they can be controlled easily.
+It is crucial to centralize all the program's values in this section. Additionally, organizing them in a logical and legible sequence is essential to facilitate straightforward management and control.
 
 ```
 !******************************************************************************************
@@ -90,7 +90,7 @@ It is better to concentrate all the values of the program in this part. They sho
 ```
 
 ### 7. Determining the number of bins of each dimension of the array optimally using input values and constant values:
-The smaller the number of directories in an array, the less likely it is to reduce the program execution time and deal with memory errors. Therefore, it is necessary to allocate the arrays optimally. In general, it is better not to use an array to solve a problem unless it is really needed.
+Minimizing the number of directories in an array does not necessarily lead to a reduction in program execution time or a decrease in memory errors. Hence, it is crucial to optimize array allocation. Generally, it is advisable to avoid using arrays for problem-solving unless absolutely necessary.
 
 ```
 !******************************************************************************************
