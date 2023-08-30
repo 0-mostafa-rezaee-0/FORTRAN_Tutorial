@@ -99,8 +99,7 @@ Minimizing the number of directories in an array does not necessarily lead to a 
 ```
 
 ### 8. Assigning an initial value of zero to all arrays:
-Arrays must be initialized like variables. For this, it is better to assign zero value to all directories by the forall command.
-
+It is essential to initialize arrays just as you would with variables. A good practice is to assign a zero value to all elements of the array using the `forall` command, which ensures that each element is explicitly set to zero before any further operations are carried out on the array. This helps in preventing unexpected behaviors caused by uninitialized elements.
 ```
 !******************************************************************************************
 ! Giving Zero to Arrays
