@@ -1,4 +1,4 @@
-# A Fortran coding template
+# FORTRAN coding template
 
 Mostafa M. Rezaee
 
