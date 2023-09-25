@@ -3,7 +3,7 @@
 
 !            * Mostafa Mohammad Rezaee, Department of Physics, Shahid Chamran University    *
 
-!            * mostafa_mohammadrezaee@yahoo.com                                             *
+!            * mostafa.mohammadrezaee@gmail.com                                             *
 
 !            * "General Structure .F90" is a suggested structure to write a Fortran program.* 
 
