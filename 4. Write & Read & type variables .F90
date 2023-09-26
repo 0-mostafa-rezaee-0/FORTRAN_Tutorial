@@ -3,7 +3,7 @@
 
 !            * Mostafa Mohammad Rezaee, Department of Physics, Shahid Chamran University    *
 
-!            * mostafa_mohammadrezaee@yahoo.com                                             *
+!            * mostafa.mohammadrezaee@gmail.com                                             *
 
 !            * "Write & Read & type Variables .F90" is a little program for teaching write  * 
 
