@@ -1,3 +1,11 @@
+## 🧰 How to Use This Template    
+
+Click the green **"Use this template"** button at the top of the page, then choose **"Create a new repository"**.   
+
+This will create your own copy of this project, which you can modify freely — no need to fork!   
+
+---    
+
 # FORTRAN Tutorial
 
 ## The codes are set to introduce various applications of these commands.    
