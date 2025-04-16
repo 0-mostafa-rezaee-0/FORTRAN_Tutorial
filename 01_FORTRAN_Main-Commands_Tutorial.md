@@ -132,27 +132,27 @@ Arrays in FORTRAN are multidimensional variables, similar to one-dimensional or 
 
 To define the dimensions of an array, the following method is used in the variable definition section:
 
-![Dimentionality](../Archive/images/2.%20Fortran_tutorial%20images/fig1.JPG)
+![Dimentionality](Archive/images/2.%20Fortran_tutorial%20images/fig1.JPG)
 
 According to the General Structure (GS), the number of entries in each dimension is specified as follows:
 
 One-dimensional (Line):   
 
-![1D](../Archive/images/2.%20Fortran_tutorial%20images/fig2.JPG)
+![1D](Archive/images/2.%20Fortran_tutorial%20images/fig2.JPG)
 
 Two-dimensional (Plane):   
 
-![2D](../Archive/images/2.%20Fortran_tutorial%20images/fig3.JPG)
+![2D](Archive/images/2.%20Fortran_tutorial%20images/fig3.JPG)
 
 Three-dimensional (Volume):
 
-![3D](../Archive/images/2.%20Fortran_tutorial%20images/fig4.JPG)
+![3D](Archive/images/2.%20Fortran_tutorial%20images/fig4.JPG)
 
 Four-dimensions: 
 
 It is important to understand that these titles function like addresses, and from this point onward, they cannot be represented with a simplified image.
 
-![4D](../Archive/images/2.%20Fortran_tutorial%20images/fig5.JPG)
+![4D](Archive/images/2.%20Fortran_tutorial%20images/fig5.JPG)
 
 Note: The purpose of presenting the above content was to express this fact that the rows can be zero, negative and even decimal, but the step is one for all of them.
 

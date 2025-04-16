@@ -8,13 +8,13 @@ Open the terminal and **copy/paste/run** the following two commands to download 
 `sudo sh ./l_BaseKit_p_2023.1.0.46401_offline.sh`
 
 
-![Image 1](../Archive/images/1.%20ifort_installation%20images/image01.png)<p>&nbsp;</p>
-![Image 2](../Archive/images/1.%20ifort_installation%20images/image02.png)<p>&nbsp;</p>
-![Image 3](../Archive/images/1.%20ifort_installation%20images/image03.png)<p>&nbsp;</p>
-![Image 4](../Archive/images/1.%20ifort_installation%20images/image04.png)<p>&nbsp;</p>
-![Image 5](../Archive/images/1.%20ifort_installation%20images/image05.png)<p>&nbsp;</p>
-![Image 6](../Archive/images/1.%20ifort_installation%20images/image06.png)<p>&nbsp;</p>
-![Image 7](../Archive/images/1.%20ifort_installation%20images/image07.png)<p>&nbsp;</p>
+![Image 1](Archive/images/1.%20ifort_installation%20images/image01.png)<p>&nbsp;</p>
+![Image 2](Archive/images/1.%20ifort_installation%20images/image02.png)<p>&nbsp;</p>
+![Image 3](Archive/images/1.%20ifort_installation%20images/image03.png)<p>&nbsp;</p>
+![Image 4](Archive/images/1.%20ifort_installation%20images/image04.png)<p>&nbsp;</p>
+![Image 5](Archive/images/1.%20ifort_installation%20images/image05.png)<p>&nbsp;</p>
+![Image 6](Archive/images/1.%20ifort_installation%20images/image06.png)<p>&nbsp;</p>
+![Image 7](Archive/images/1.%20ifort_installation%20images/image07.png)<p>&nbsp;</p>
 
 
 ## Step 2
@@ -24,12 +24,12 @@ Open the terminal and **copy/paste/run** the following two commands to download 
 
 `sudo sh ./l_HPCKit_p_2023.1.0.46346_offline.sh`
 
-![Image 8](../Archive/images/1.%20ifort_installation%20images/image08.png)<p>&nbsp;</p>
-![Image 9](../Archive/images/1.%20ifort_installation%20images/image09.png)<p>&nbsp;</p>
-![Image 10](../Archive/images/1.%20ifort_installation%20images/image10.png)<p>&nbsp;</p>
-![Image 11](../Archive/images/1.%20ifort_installation%20images/image11.png)<p>&nbsp;</p>
-![Image 12](../Archive/images/1.%20ifort_installation%20images/image12.png)<p>&nbsp;</p>
-![Image 13](../Archive/images/1.%20ifort_installation%20images/image13.png)<p>&nbsp;</p>
+![Image 8](Archive/images/1.%20ifort_installation%20images/image08.png)<p>&nbsp;</p>
+![Image 9](Archive/images/1.%20ifort_installation%20images/image09.png)<p>&nbsp;</p>
+![Image 10](Archive/images/1.%20ifort_installation%20images/image10.png)<p>&nbsp;</p>
+![Image 11](Archive/images/1.%20ifort_installation%20images/image11.png)<p>&nbsp;</p>
+![Image 12](Archive/images/1.%20ifort_installation%20images/image12.png)<p>&nbsp;</p>
+![Image 13](Archive/images/1.%20ifort_installation%20images/image13.png)<p>&nbsp;</p>
 
 ## Step 3
 Install ZSH
@@ -54,7 +54,7 @@ Add the bellow path to .zshrc
 Like below:
 
 
-![Image 14](../Archive/images/1.%20ifort_installation%20images/image14.png)<p>&nbsp;</p>
+![Image 14](Archive/images/1.%20ifort_installation%20images/image14.png)<p>&nbsp;</p>
 
 Close and reopen the terminal and make sure that ifort is installed by this command:
 
